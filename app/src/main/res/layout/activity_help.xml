@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/pertanyaan"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="5dp"
+        android:layout_marginLeft="10dp"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:textColor="#000000"
+        android:textAppearance="@android:style/TextAppearance"
+        android:text="Questions"
+        tools:ignore="MissingConstraints" />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recyclerView1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="10dp"
+        android:layout_marginLeft="15dp"
+        android:layout_below="@+id/pertanyaan" />
+
+    <TextView
+        android:id="@+id/contact"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="5dp"
+        android:layout_marginLeft="10dp"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:textColor="#000000"
+        android:textAppearance="@android:style/TextAppearance"
+        android:text="Contact Us"
+        android:layout_below="@id/recyclerView1"/>
+    <LinearLayout
+        android:id="@+id/email"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_below="@+id/contact"
+        android:orientation="vertical"
+        app:layout_constraintTop_toBottomOf="@+id/contact">
+
+        <TextView
+            android:id="@+id/textemail"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="5dp"
+            android:text="E-Mail"
+            android:textColor="#000000"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/textalamatemail"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="3dp"
+            android:text="assistantphotoideo@gmail.com"
+            android:textColor="#000000"
+            android:textSize="14dp"
+            app:layout_constraintTop_toBottomOf="@+id/textemail" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/telepon"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_below="@+id/email"
+        android:layout_marginTop="0dp"
+        android:orientation="vertical"
+        app:layout_constraintTop_toBottomOf="@+id/email">
+
+        <TextView
+            android:id="@+id/texttelepon"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="5dp"
+            android:text="Phone"
+            android:textColor="#000000"
+            android:textSize="18dp" />
+
+        <TextView
+            android:id="@+id/textnotelepon"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="3dp"
+            android:text="0361-221342"
+            android:textColor="#000000"
+            android:textSize="14dp"
+            app:layout_constraintTop_toBottomOf="@+id/texttelepon" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/des"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:layout_below="@+id/telepon"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/telepon"
+        app:layout_constraintVertical_bias="0.805"
+        tools:layout_editor_absoluteX="0dp">
+
+        <TextView
+            android:id="@+id/textdes"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="15dp"
+            android:text="Layanan Pelanggan 24 Jam, Senin s/d Minggu, termasuk Hari Libur Nasoinal"
+            android:textAlignment="center"
+            android:textSize="16dp" />
+    </LinearLayout>
+
+</RelativeLayout>

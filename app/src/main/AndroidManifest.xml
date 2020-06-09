@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="info.hijoyprogmob">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:largeHeap="true"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".Rent.RentSearch"
+            android:parentActivityName=".Search.Search"/>
+        <activity android:name=".Rent.RentMemory"
+            android:parentActivityName=".Home.Kategori.Memory.ActivityMemory"/>
+        <activity android:name=".Rent.RentFlash"
+            android:parentActivityName=".Home.Kategori.Flash.ActivityFlash"/>
+        <activity android:name=".Rent.RentFilter"
+            android:parentActivityName=".Home.Kategori.Filter.ActivityFilter"/>
+        <activity android:name=".Rent.RentAccessories"
+            android:parentActivityName=".Home.Kategori.Accessories.ActivityAccessories"/>
+        <activity android:name=".Rent.RentBag"
+            android:parentActivityName=".Home.Kategori.Bag.ActivityBag"/>
+        <activity android:name=".Rent.RentBattery"
+            android:parentActivityName=".Home.Kategori.Battery.ActivityBattery"/>
+        <activity android:name=".Rent.RentTripod"
+            android:parentActivityName=".Home.Kategori.Tripod.ActivityTripod"/>
+        <activity android:name=".Rent.RentLensa"
+            android:parentActivityName=".Home.Kategori.Lensa.ActivityLensa"/>
+        <activity android:name=".Rent.RentKamera"
+            android:parentActivityName=".Home.Kategori.Kamera.ActivityKamera"/>
+        <activity android:name=".Account.Help1"
+            android:parentActivityName=".Account.Help"/>
+        <activity android:name=".Account.Help"
+            android:parentActivityName=".Account.DetailProfile"/>
+        <activity android:name=".Account.SettingPrivasi"
+            android:parentActivityName=".Account.Setting"/>
+        <activity android:name=".Account.SettingNotif"
+            android:parentActivityName=".Account.Setting"/>
+        <activity android:name=".Account.SettingChat"
+            android:parentActivityName=".Account.Setting"/>
+        <activity android:name=".Account.Setting"
+            android:parentActivityName=".Account.Account"/>
+        <activity android:name=".Account.TermsCondition"
+            android:parentActivityName=".Account.Account"/>
+        <activity android:name=".Account.DetailProfile"
+            android:parentActivityName=".Account.Account"/>
+        <activity android:name=".Account.About"
+            android:parentActivityName=".Account.Account"/>
+        <activity android:name=".Home.HorizontalRecyclerView.DetailRecProductHRV"
+            android:parentActivityName=".Home.Home"/>
+        <activity android:name=".Home.HorizontalRecyclerView.DetailTopProductHRV"
+            android:parentActivityName=".Home.Home"/>
+        <activity android:name=".News.DetailNews"
+            android:parentActivityName=".News.News"/>
+        <activity android:name=".News.News" />
+        <activity android:name=".Home.Kategori.Accessories.ActivityAccessories2"
+            android:parentActivityName=".Home.Kategori.Accessories.ActivityAccessories"/>
+        <activity android:name=".Home.Kategori.Accessories.ActivityAccessories"
+            android:parentActivityName=".Home.Home"/>
+        <activity android:name=".Home.Kategori.Bag.ActivityBag2"
+            android:parentActivityName=".Home.Kategori.Bag.ActivityBag"/>
+        <activity android:name=".Home.Kategori.Bag.ActivityBag"
+            android:parentActivityName=".Home.Home"/>
+        <activity android:name=".Home.Kategori.Filter.ActivityFilter2"
+            android:parentActivityName=".Home.Kategori.Filter.ActivityFilter"/>
+        <activity android:name=".Home.Kategori.Filter.ActivityFilter"
+            android:parentActivityName=".Home.Home"/>
+        <activity android:name=".Home.Kategori.Flash.ActivityFlash2"
+            android:parentActivityName=".Home.Kategori.Flash.ActivityFlash"/>
+        <activity android:name=".Home.Kategori.Flash.ActivityFlash"
+            android:parentActivityName=".Home.Home"/>
+        <activity android:name=".Home.Kategori.Memory.ActivityMemory2"
+            android:parentActivityName=".Home.Kategori.Memory.ActivityMemory"/>
+        <activity android:name=".Home.Kategori.Memory.ActivityMemory"
+            android:parentActivityName=".Home.Home"/>
+        <activity android:name=".Home.Kategori.Battery.ActivityBattery2"
+            android:parentActivityName=".Home.Kategori.Battery.ActivityBattery"/>
+        <activity android:name=".Home.Kategori.Battery.ActivityBattery"
+            android:parentActivityName=".Home.Home"/>
+        <activity android:name=".Home.Kategori.Lensa.ActivityLensa2"
+            android:parentActivityName=".Home.Kategori.Lensa.ActivityLensa"/>
+        <activity android:name=".Home.Kategori.Lensa.ActivityLensa"
+            android:parentActivityName=".Home.Home"/>
+        <activity android:name=".Home.Kategori.Kamera.ActivityKamera2"
+            android:parentActivityName=".Home.Kategori.Kamera.ActivityKamera"/>
+        <activity android:name=".Home.Kategori.Kamera.ActivityKamera"
+            android:parentActivityName=".Home.Home"/>
+        <activity android:name=".Home.Kategori.Tripod.ActivityTripod2"
+            android:parentActivityName=".Home.Kategori.Tripod.ActivityTripod"/>
+        <activity android:name=".Home.Kategori.Tripod.ActivityTripod"
+            android:parentActivityName=".Home.Home"/>
+        <activity android:name=".Home.ImageSlider.DetailImageSlider4"
+            android:parentActivityName=".Home.Home"/>
+        <activity android:name=".Home.ImageSlider.DetailImageSlider3"
+            android:parentActivityName=".Home.Home"/>
+        <activity android:name=".Home.ImageSlider.DetailImageSlider2"
+            android:parentActivityName=".Home.Home"/>
+        <activity android:name=".Home.ImageSlider.DetailImageSlider1"
+            android:parentActivityName=".Home.Home"/>
+        <activity android:name=".Rent.RentHome"
+            android:parentActivityName=".Home.Home"/>
+        <activity android:name=".Search.DetailSearchActivity"
+            android:parentActivityName=".Search.Search"/>
+        <activity android:name=".Account.Account" />
+        <activity android:name=".Favorite.Favorite" />
+        <activity android:name=".Search.Search" />
+        <activity android:name=".Home.Home" />
+        <activity android:name=".SignUp"
+            android:parentActivityName=".Login"/>
+        <activity android:name=".Login">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

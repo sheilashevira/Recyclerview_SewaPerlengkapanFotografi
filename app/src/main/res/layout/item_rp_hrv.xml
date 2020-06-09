@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="100dp"
+    android:layout_height="wrap_content"
+    android:layout_marginLeft="10dp"
+    android:id="@+id/rpLayout">
+
+    <ImageView
+        android:id="@+id/imageProduk"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:background="@drawable/background_hrv"
+        android:padding="14dp"
+        android:layout_marginBottom="10dp"/>
+
+    <TextView
+        android:id="@+id/namaProduk"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Produk"
+        android:textColor="#000000"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:layout_below="@+id/imageProduk"
+        />
+
+    <TextView
+        android:id="@+id/ringkasProduk"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Deskripsi"
+        android:textColor="#000000"
+        android:textSize="12sp"
+        android:gravity="center"
+        android:layout_below="@+id/namaProduk"
+        />
+
+</RelativeLayout>
